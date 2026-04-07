@@ -19,3 +19,17 @@ pode ser modificado no código xml a cor de um elementos em imagem de duas forma
 
 * Depois de salvado as alterações, basta somente mudar novamente a image como svg, e estará a imagem alterada.
 
+* transition: background-color 0.5s, color 0.5s
+   - Nesse caso, o plano de fundo é modificado com transition, e o primeiro valor numérico é o temmpo que essa transição vai demorar
+
+   - o segundo elemento a ser modificado é "color" e também recebe um valor que define o tempo que essa alterção vai demorar.
+
+* fontawesome -> site de icones para projetos.
+
+  - link de instalação de icones no código:
+
+  <script src="https://kit.fontawesome.com/ec40fa2d48.js" crossorigin="anonymous"></script>
+
+  - Esse link é colado no header (HTML) do projeto.
+
+  - apos instalar esse código no cabeçalho, basta pesquisar o ícone no site e colar a tag(i) do icone desejado no local desejado projeto.
