@@ -1,0 +1,21 @@
+* SVG -> imagem vetorizada, pode ser usada como favicon.
+
+* SVG utiliza xml para gerar imagens (xml é equivalente ao html só que para outras finalidades)
+
+* Se modificar a extenção do SVG -> xml, o código da imagem é aberto para ser feito alterações desejadas.
+
+pode ser modificado no código xml a cor de um elementos em imagem de duas formas:
+
+  1- modificando a cor "exadecimal" da propriedade 'fill' que geralmente fica no final do código xml da imagem svg.
+
+  2- adicionando um <style> dentro da configuração xml da imagem, e dentro do style criando um seletor com o nome:
+  path{
+  }
+
+     - e dentro dessa path pode ser configurado elementos como: 
+       * fill:black  - configura a cor de fundo da imagem
+       * stroke: white -> configura a borda com a cor branca
+       *stroke:width: 3px -> cria uma borda de 3 px;
+
+* Depois de salvado as alterações, basta somente mudar novamente a image como svg, e estará a imagem alterada.
+
