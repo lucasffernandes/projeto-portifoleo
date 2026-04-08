@@ -33,3 +33,10 @@ pode ser modificado no código xml a cor de um elementos em imagem de duas forma
   - Esse link é colado no header (HTML) do projeto.
 
   - apos instalar esse código no cabeçalho, basta pesquisar o ícone no site e colar a tag(i) do icone desejado no local desejado projeto.
+
+  * Para configuração de imagens, existe a opção 'aspect-ratio' que pode receber valores de dimencionamento de imagem, deixando ela no aspecto (tamanho desejado).
+      - Exemplo de valor: 1/1 ou 9/16
+
+  * Object-fit: concerta a imagem nesse configuração acima no tamanho delimitado.
+
+  * outline funciona exatamente como uma borda comum, ela é uma borda externa a "border".
