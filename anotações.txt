@@ -40,3 +40,5 @@ pode ser modificado no código xml a cor de um elementos em imagem de duas forma
   * Object-fit: concerta a imagem nesse configuração acima no tamanho delimitado.
 
   * outline funciona exatamente como uma borda comum, ela é uma borda externa a "border".
+
+  
