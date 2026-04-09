@@ -41,4 +41,12 @@ pode ser modificado no código xml a cor de um elementos em imagem de duas forma
 
   * outline funciona exatamente como uma borda comum, ela é uma borda externa a "border".
 
+  -------
+
+  AULA DO GUANABARA QUE DA DICAS DE COMO FAZER UM BOM VÍDEO DE PORTFÓLEO
+
+  -> https://www.youtube.com/watch?v=vl0eatPehLs&t=15s
+
+  -------
+
   
