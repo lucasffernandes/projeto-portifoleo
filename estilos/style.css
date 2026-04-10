@@ -123,7 +123,7 @@ article {
 
 article h2 {
   color: var(--destaque);
-  margin-bottom: 10px; 
+  margin-bottom: 20px; 
 }
 
 article#video .video-conteiner {
@@ -144,8 +144,12 @@ article#video .video-conteiner {
 
 #skill-conteiner {
   display: grid;
-  grid-template-columns: ifr;
+  grid-template-columns: 1fr;
   gap: 30px;
+}
+
+#skill-conteiner .item {
+  padding-bottom: 20px;
 }
 
 #skill-conteiner .info {
@@ -154,13 +158,13 @@ article#video .video-conteiner {
   align-items: center;
 }
 
- #skill-conteiner .nome {
+#skill-conteiner .nome {
   font-weight: bold;
   color: var(--texto);
 }
 
 #skill-conteiner .porcent {
-  font: bold;
+  font-weight: bold;
   color: var(--destaque);
 }
 
@@ -177,7 +181,7 @@ article#video .video-conteiner {
   border-radius: 4px;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   #skill-conteiner {
     grid-template-columns: 1fr 1fr;
   }
