@@ -49,4 +49,20 @@ pode ser modificado no código xml a cor de um elementos em imagem de duas forma
 
   -------
 
-  
+  COLOCANDO O HEADER (cabeçalho) FIXO
+
+   * position: sticky -> utilizando essa propriedade e esse valor dentro do seletor header, torna-o fixo.
+      - também é necessário definir a propriedade 
+         top: 0;
+
+  PROBLEMA DECORRENTE A FIXAÇÃO DE cabeçalho
+
+  * um problema que pode ocorrer é o cabeçalho ficar uma camada antes de elguns elementos, como por exemplo iframes, é necessário nesses casos colocar o cabeçalho na camada superior, colocando a propriedade e o valor da camada desejada:
+
+  seletor header {
+    position: sticky;
+    top: 0;
+    z-index: 1 -> pode acrescentar quantas camadas forem necessárias, começando do 1.
+  }
+
+  * outro problema que ocorre fixando o header, é que quando direcionado, ele "esconde" o h2, fazendo necessário a rolagem para visualizar. Resolve isso nesse projeto com JavaScript (a classe "Link" acrescentada em cada link do menu de navegação, é uma configuração para isso). 
