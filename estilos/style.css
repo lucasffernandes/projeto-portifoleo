@@ -264,6 +264,22 @@ footer a:hover {
 }
 
 @media screen and (min-width: 768px) {
+  main {
+    grid-template-columns: auto 300px 1fr auto;
+  }
+
+  section#ficha {
+    /* codigo abaixo define a seção id ficha como começando na linha 2 e terminando na linha 3 */
+    grid-column: 2/3; 
+    height: fit-content; /*Define a altura do elemento como a que está em uso na tela*/
+    position: sticky;
+    top: 65px;
+  }
+
+  section#detalhes {
+    grid-column: 3/4;
+  }
+
   #skill-conteiner {
     grid-template-columns: 1fr 1fr;
   }
